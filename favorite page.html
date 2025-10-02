@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Roboto', 'Segoe UI', Arial, sans-serif;
+            background: #ffe4ec url('https://i.imgur.com/uYrNron.png') no-repeat center center;
+            background-size: cover;
+            color: #000;
+        }
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: #ffb6d5;
+            padding: 1rem 2rem;
+            color: #000;
+        }
+        .navbar a {
+            color: #000;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        .hero {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 40vh;
+            background: linear-gradient(120deg, #ffb6d5 0%, #ffe4ec 100%);
+            color: #000;
+            text-align: center;
+        }
+        .feature {
+            background: #ffe4ec;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(255,182,213,0.15);
+            padding: 2rem;
+            width: 250px;
+            text-align: center;
+            color: #000;
+            transition: box-shadow 0.2s, transform 0.2s;
+        }
+        .feature h3 {
+            margin-bottom: 1rem;
+            color: #000;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Favorite Page</title>
+</head>
+<body>
+
+    <section id="favorites" style="max-width:700px;margin:3rem auto 2rem auto;padding:2rem;background:#fff;border-radius:12px;box-shadow:0 2px 8px rgba(255,182,213,0.15);color:#000;">
+        <div style="background:#ffb6d5; border-radius:16px; box-shadow:0 2px 8px rgba(255,182,213,0.15); padding:1.2em 0; margin-bottom:2em;">
+            <h2 style="text-align:center; font-family: 'Roboto', sans-serif; font-size:2.2rem; margin:0; color:#000; letter-spacing:1px;">Favorites Page</h2>
+        </div>
+        <ul style="font-size:1.2rem; line-height:2; list-style:none; padding:0;">
+            <li style="margin-bottom:1.5em;"><strong>My Favorites</strong></li>
+            <li style="display:flex; align-items:center; gap:1.5rem; margin-bottom:1.5em;">
+                <span><strong>Color:</strong> Pink, Purple, Black</span>
+                <img src="https://i.imgur.com/Qf4iy45.png" alt="Favorite Color 1" style="width:110px; height:110px; border-radius:14px; box-shadow:0 2px 8px rgba(0,0,0,0.10);">
+                <img src="https://i.imgur.com/7X1TWQw.png" alt="Favorite Color 2" style="width:110px; height:110px; border-radius:14px; box-shadow:0 2px 8px rgba(0,0,0,0.10);">
+                <img src="https://i.imgur.com/90OciXS.png" alt="Favorite Color 3" style="width:110px; height:110px; border-radius:14px; box-shadow:0 2px 8px rgba(0,0,0,0.10);">
+            </li>
+            <li style="margin-bottom:1.5em;">
+                <div><strong>Music:</strong> Jpop music, Hollywood music, and Barbie music</div>
+                <div style="display:flex; justify-content:center; gap:2rem; margin-top:1em;">
+                    <img src="https://i.imgur.com/G58fIiS.png" alt="Favorite Music 1" style="width:150px; height:150px; border-radius:18px; box-shadow:0 2px 8px rgba(0,0,0,0.10);">
+                    <img src="https://i.imgur.com/2IuIv2D.png" alt="Favorite Music 2" style="width:150px; height:150px; border-radius:18px; box-shadow:0 2px 8px rgba(0,0,0,0.10);">
+                    <img src="https://i.imgur.com/PvJ0RZt.png" alt="Favorite Music 3" style="width:150px; height:150px; border-radius:18px; box-shadow:0 2px 8px rgba(0,0,0,0.10);">
+                </div>
+            </li>
+            <li style="margin-bottom:1.5em;">
+                <div><strong>Movies/Shows:</strong> Caroline and Anime</div>
+                <div style="display:flex; justify-content:center; gap:2rem; margin-top:1em;">
+                    <img src="https://i.imgur.com/a0iA2WN.png" alt="Movie/Show 1" style="width:220px; height:220px; border-radius:22px; box-shadow:0 2px 8px rgba(0,0,0,0.10);">
+                    <img src="https://i.imgur.com/MPo4yLA.png" alt="Movie/Show 2" style="width:220px; height:220px; border-radius:22px; box-shadow:0 2px 8px rgba(0,0,0,0.10);">
+                </div>
+            </li>
+            <li style="margin-bottom:1.5em;">
+                <div><strong>Books/Comics:</strong> Manhwa, light novels, and thought-provoking literature</div>
+                <div style="display:flex; justify-content:center; margin-top:1em;">
+                    <img src="https://i.imgur.com/mK71zpe.png" alt="Favorite Book" style="width:300px; height:300px; border-radius:28px; box-shadow:0 2px 8px rgba(0,0,0,0.10);">
+                </div>
+                <div style="display:flex; justify-content:center; gap:2rem; margin-top:1em;">
+                    <img src="https://i.imgur.com/VsIG1W7.png" alt="Favorite Book 2" style="width:300px; height:300px; border-radius:28px; box-shadow:0 2px 8px rgba(0,0,0,0.10);">
+                    <img src="https://i.imgur.com/AaoqqUq.png" alt="Favorite Book 3" style="width:300px; height:300px; border-radius:28px; box-shadow:0 2px 8px rgba(0,0,0,0.10);">
+                </div>
+            </li>
+            <li style="margin-bottom:1.5em;">
+                <div><strong>Flower:</strong> Tulips</div>
+                <div style="display:flex; justify-content:center; gap:2rem; margin-top:1em;">
+                    <img src="https://i.imgur.com/89Wbvlg.png" alt="Favorite Flower 1" style="width:300px; height:300px; border-radius:28px; box-shadow:0 2px 8px rgba(0,0,0,0.10);">
+                    <img src="https://i.imgur.com/A3DPfb5.png" alt="Favorite Flower 2" style="width:300px; height:300px; border-radius:28px; box-shadow:0 2px 8px rgba(0,0,0,0.10);">
+                    <img src="https://i.imgur.com/uYrNron.png" alt="Favorite Flower 3" style="width:300px; height:300px; border-radius:28px; box-shadow:0 2px 8px rgba(0,0,0,0.10);">
+                </div>
+            </li>
+            <li style="margin-bottom:1.5em;">
+                <div><strong>Hobbies:</strong> Cooking, singing, teaching, and exploring</div>
+                <div style="display:flex; justify-content:center; gap:2rem; margin-top:1em;">
+                    <img src="https://i.imgur.com/7thnIF7.png" alt="Hobby 1" style="width:220px; height:220px; border-radius:22px; box-shadow:0 2px 8px rgba(0,0,0,0.10);">
+                    <img src="https://i.imgur.com/7zSP6rn.png" alt="Hobby 2" style="width:220px; height:220px; border-radius:22px; box-shadow:0 2px 8px rgba(0,0,0,0.10);">
+                    <img src="https://i.imgur.com/R63teh6.png" alt="Hobby 3" style="width:220px; height:220px; border-radius:22px; box-shadow:0 2px 8px rgba(0,0,0,0.10);">
+                    <img src="https://i.imgur.com/cKdQA4L.png" alt="Hobby 4" style="width:220px; height:220px; border-radius:22px; box-shadow:0 2px 8px rgba(0,0,0,0.10);">
+                </div>
+                <div style="width:100%; display:flex; justify-content:center; margin:2rem 0;">
+                    <a href="file:///E:/juveony%20casido/juveony%20copy.html#profile" style="font-size:1.3rem; font-family:'Roboto', cursive; color:#d6336c; text-decoration:none; background:#ffe4ec; padding:0.7em 2em; border-radius:18px; box-shadow:0 2px 8px rgba(255,182,213,0.15); transition:background 0.2s;">
+                        🔗 Back to Homepage
+                    </a>
+                </div>
+            </li>
+        </ul>
+    </section>
+</body>
+</html>

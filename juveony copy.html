@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to My Page</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Roboto', 'Segoe UI', Arial, sans-serif;
+            background: #ffe4ec url('https://i.imgur.com/uYrNron.png') no-repeat center center;
+            background-size: cover;
+            color: #000;
+        }
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: #ffb6d5;
+            padding: 1rem 2rem;
+            color: #000;
+        }
+        .navbar .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+        .navbar ul {
+            list-style: none;
+            display: flex;
+            gap: 1.5rem;
+            margin: 0;
+            padding: 0;
+        }
+        .navbar ul li {
+            transition: transform 0.2s;
+        }
+        .navbar ul li:hover {
+            transform: scale(1.1);
+        }
+        .navbar a {
+            color: #000;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        .hero {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 40vh;
+            background: linear-gradient(120deg, #ffb6d5 0%, #ffe4ec 100%);
+            color: #000;
+            text-align: center;
+        }
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+        .hero p {
+            font-size: 1.25rem;
+            margin-bottom: 2rem;
+        }
+        .features {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            margin: 3rem 0;
+        }
+        .feature {
+            background: #ffe4ec;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(255,182,213,0.15);
+            padding: 2rem;
+            width: 250px;
+            text-align: center;
+            color: #000;
+            transition: box-shadow 0.2s, transform 0.2s;
+        }
+        .feature:hover {
+            box-shadow: 0 4px 16px rgba(255,182,213,0.25);
+            transform: translateY(-5px);
+        }
+        .feature h3 {
+            margin-bottom: 1rem;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">Welcome to My Page</div>
+        <ul>
+            <li><a href="#profile">Profile</a></li>
+            <li><a href="#subjects">Subjects</a></li>
+            <li><a href="#it-era">IT Era</a></li>
+            <li><a href="#ict-help">ICT & Students</a></li>
+        </ul>
+    </nav>
+    <section class="hero" id="home">
+        <h1>Welcome to My Page</h1>
+        <p>Explore my student profile, subjects, and thoughts on IT and ICT.</p>
+    </section>
+    <!-- Profile Picture Section Under Welcome -->
+    <div style="display: flex; justify-content: flex-start; align-items: center; gap: 2rem; max-width: 700px; margin: 0 auto 1rem auto;">
+        <img src="https://i.imgur.com/kloIrhr.png" alt="Student Avatar" style="border-radius:12px;max-width:300px;height:auto;box-shadow:0 2px 8px rgba(0,0,0,0.15);">
+            <div>
+                <h3>Page Links</h3>
+                <ul style="list-style: none; padding: 0; margin: 0;">
+                    <li><a href="file:///E:/juveony%20casido/autobiography%20page.html" style="font-size:1.1rem; text-decoration:none; color:#000;">🔗 Go to Autobiography Page</a></li>
+                    <li><a href="file:///E:/juveony%20casido/favorite%20page.html" style="font-size:1.1rem; text-decoration:none; color:#000;">🔗 Go to Favorites Page</a></li>
+                    <li><a href="#resume" style="font-size:1.1rem; text-decoration:none; color:#000;">🔗 Go to Resume Page</a></li>
+                </ul>
+            </div>
+    </div>
+    </section>
+    <section id="profile" style="max-width:700px;margin:2rem auto;padding:2rem;background:#fff;border-radius:12px;box-shadow:0 2px 8px rgba(0,0,0,0.08);">
+        <h2>Student Profile</h2>
+        <div style="display:flex;align-items:center;gap:2rem;">
+                <img src="https://i.imgur.com/0h2g6aR.png" alt="Student Avatar" style="border-radius:0;max-width:150px;height:auto;">
+            <div>
+                <p><strong>Name:</strong> JUVEONY CASIDO</p>
+                <p><strong>Section:</strong> ABELS 2-D</p>
+                    <p><strong>School:</strong> SAN MATEO MUNICIPAL COLLEGE</p>
+                    <hr style="margin:1.2em 0;">
+                    <div>
+                    
+                        <p>I am a motivated and open-minded individual who accepts challenges with determination. Currently, I am taking up a Bachelor of Arts in English Language Studies, where I continue to improve my skills in language, literature, and communication.</p>
+                    </div>
+            </div>
+        </div>
+    </section>
+    <section id="subjects" style="max-width:700px;margin:2rem auto;padding:2rem;background:#fff;border-radius:12px;box-shadow:0 2px 8px rgba(0,0,0,0.08);">
+        <h2>Current Subjects</h2>
+    <ul style="font-size:1.1rem;">
+            <li style="margin-bottom:1.2em;"><strong>Computer Mediated Communication</strong> – Understanding how technology influences human interaction and digital communication.</li>
+            <li style="margin-bottom:1.2em;"><strong>ELT Approaches and Methods</strong> – Exploring various strategies and techniques in English language teaching.</li>
+            <li style="margin-bottom:1.2em;"><strong>Language of Literary Texts</strong> – Analyzing language use in prose, poetry, and drama to deepen literary appreciation.</li>
+            <li style="margin-bottom:1.2em;"><strong>English Language Testing and Assessment</strong> – Studying the principles and practices of evaluating learners’ language proficiency.</li>
+            <li style="margin-bottom:1.2em;"><strong>English Syntax</strong> – Examining the structure of English sentences and grammar rules.</li>
+            <li style="margin-bottom:1.2em;"><strong>Foreign Language 1 (Japanese)</strong> – Learning the basics of the Japanese language, including writing and speaking.</li>
+            <li style="margin-bottom:1.2em;"><strong>Kontekstwalisadong Komunikasyon sa Filipino</strong> – Developing communication skills in Filipino while considering cultural and social contexts.</li>
+            <li style="margin-bottom:1.2em;"><strong>Living in the IT era</strong> – Exploring how technology, information, and communication shape human life, learning, and work in the digital age.</li>
+            <li style="margin-bottom:1.2em;"><strong>Technical Writing</strong> – Practicing clear and concise writing for professional and academic purposes.</li>
+            <li style="margin-bottom:1.2em;"><strong>Physical Activities Toward Health and Fitness 3</strong> – Engaging in activities that promote wellness, endurance, and a healthy lifestyle.</li>
+        </ul>
+    </section>
+    <section id="it-era" style="max-width:700px;margin:2rem auto;padding:2rem;background:#fff;border-radius:12px;box-shadow:0 2px 8px rgba(0,0,0,0.08);">
+    <h2>Importance of Living in the IT Era</h2>
+    <p style="font-size:1.1rem;">Living in the IT era is important to me because it provides endless opportunities for learning, communication, and growth. Technology allows me to access information instantly, connect with people worldwide, and improve my academic performance through digital resources. It also prepares me for the demands of modern careers, where ICT skills are essential.</p>
+    </section>
+    <section id="ict-help" style="max-width:700px;margin:2rem auto;padding:2rem;background:#fff;border-radius:12px;box-shadow:0 2px 8px rgba(0,0,0,0.08);">
+    <h2>How ICT Helps Students Like Me</h2>
+    <p style="font-size:1.1rem;">ICT helps students like me by making learning more interactive, accessible, and efficient. Online resources such as e-books, digital libraries, and learning platforms support my studies beyond the classroom. ICT also enables collaboration with classmates through online discussions and group projects. Additionally, it helps in enhancing creativity by allowing us to present ideas using multimedia tools. Overall, ICT empowers students to become independent learners and adapt to the fast-changing world.</p>
+        <hr style="margin:2rem 0;">
+        <div style="font-size:1.1rem;">
+            <h3>Contact Info</h3>
+            <p>Phone: <a href="tel:09270655903" style="color:#000;text-decoration:underline;">09270655903</a></p>
+            <p>Email: <a href="mailto:casidojuvy@gmail.com" style="color:#000;text-decoration:underline;">casidojuvy@gmail.com</a></p>
+        </div>
+    </section>
+    <footer style="text-align:center; padding:2rem 0; background:#2d3e50; color:#fff;">
+        <footer style="text-align:center; padding:2rem 0; background:#ffb6d5; color:#000;">
+        &copy; 2025 Welcome to My Page. All rights reserved.
+    </footer>
+</body>
+</html>
